@@ -1,0 +1,155 @@
+/*
+  Name: Parren Chen
+  Date: April 20, 2019
+  Section:CSE 154 AL
+  This is the style.css page for both my index.html and clan.html page that
+  organize their same overall style.
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body {
+  background-image: url(39939.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+button{
+  width: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 3px;
+  font-size: 15pt;
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+#clan{
+  background-image: url(830747.jpg);
+}
+
+h1, h2, h3, .quote, #guessingGame{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60pt;
+}
+
+h2, h3{
+  font-size: 18pt;
+}
+
+img{
+  width: 480px;
+  height: 640px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.navbar ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:rgba(192,192,192,0.2);
+}
+
+.navbar li{
+  float: left;
+  font-size: 15pt;
+  margin-right:15px;
+}
+
+.navbar a{
+  display: block;
+  color: #8ce0ff;
+  padding: 10px 10px;
+}
+
+.navbar li a:hover {
+  opacity:0.3;
+}
+
+.section{
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px;
+  float: left;
+  width: 29.65%;
+  height: 230px;
+  border:1px solid rgb(163, 124, 230);
+  margin-bottom:1%;
+}
+
+.section p{
+  margin-left:10px;
+}
+#mood{
+  display: flex;
+  align-items:center;
+}
+
+#mood > section{
+  border: 2px solid gold;
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.picQuote p{
+  font-size: 10pt;
+  line-height: 0px;
+}
+
+#dotaLink{
+  color: rgba(255,255,255,0.6);
+}
+
+#quote{
+  font-size: 18pt;
+}
+
+table{
+  margin:auto;
+}
+
+table, th, td {
+  border: 1px solid rgb(163, 124, 230);
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+}
+
+.intro section{
+  color: rgb(255, 65, 85);
+  width: 50%;
+  margin: 10px;
+}
+
+#guessingGame{
+  margin-top: 30px;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.additionClassStyle{
+  font-style: oblique;
+}

@@ -1,0 +1,138 @@
+<!--
+  source for background:https://unsplash.com/photos/NORa8-4ohA0
+-->
+
+<!--
+  Name: Parren Chen
+  Date: 04.20.2019
+  Section: CSE 154 AL
+
+This is the index.html page to introduce me, Parren. There's also a link to
+  other clan page, some basic personal information, and my favorite quotes.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>my CSE 154</title>
+  </head>
+  <body>
+    <h1>Parren's page</h1>
+    <nav class="navbar">
+        <ul><li><a href="about.html">Home</a></li>
+          <li><a href="clan.html">about our Clan</a></li>
+          <li>Contact me</li></ul>
+    </nav>
+
+
+    <div>
+      <section class="section">
+        <h2>Who am I</h2>
+        <p>
+          I'm Parren Chen, a freshman intended to get in some engeneering
+          major. I enjoy playing the piano, and I hope through the CSE 154
+          course I can learn more about database and web design.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Classes I'm currently taking</h2>
+        <ol>
+          <li>L ARCH 322</li>
+          <li>CSE 143</li>
+          <li>CSE 154</li>
+          <li>MUSIC 120</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Five of My Favorite Things</h2>
+        <ol>
+          <li><strong>Favorite animal:</strong> cats</li>
+          <li><strong>Favorite food:</strong> pasta</li>
+          <li><strong>Favorite games:</strong> World of Warships, Dota 2 <br>
+            <a id="dotaLink" href="https://en.wikipedia.org/wiki/Dota_2">
+              wait, what's Dota2?</a></li>
+          <li><strong>Favorite hobby:</strong> piano</li>
+          <li><strong>Favorite song:</strong> something just like this</li>
+        </ol>
+      </section>
+    </div>
+
+    <hr/>
+
+    <div id="mood">
+      <section class="picQuote">
+        <h3>A picture that represents when I'm happy</h3>
+        <img src="0bfda75e5d2d5d54bd51fd6c874504a2.jpg"
+          alt="kitten full of happiness" />
+        <p>image from : www.pinterest.com/pin/738942251335453408/.</p>
+      </section>
+      <section class="picQuote">
+        <h3>A picture that represents when I'm sad</h3>
+        <img src="7c2af92b7eb3cbd1dc4bf7a3f339368e.jpg"
+          alt="kitten sad in rain" />
+        <p>image from : www.pinterest.com/pin/127648970669697780/.</p>
+      </section>
+    </div>
+    <section class="quote">
+      <h3>my favorite quote -- Sonnet 18</h3>
+        <blockquote>
+        <p>
+          Shall I compare thee to a summer's day?
+        </p>
+        <p>
+          Thou art more lovely and more temperate:
+        </p>
+        <p>
+          Rough winds do shake the darling buds of May,
+        </p>
+        <p>
+          And summer's lease hath all too short a date:
+        </p>
+        <p>
+          Sometime too hot the eye of heaven shines,
+        </p>
+        <p>
+          And often is his gold complexion dimmed,
+        </p>
+        <p>
+          And every fair from fair sometime declines,
+        </p>
+        <p>
+          By chance, or nature's changing course untrimmed:
+        </p>
+        <p>
+          But thy eternal summer shall not fade,
+        </p>
+        <p>
+          Nor lose possession of that fair thou ow'st,
+        </p>
+        <p>
+          Nor shall death brag thou wander'st in his shade,
+        </p>
+        <p>
+          When in eternal lines to time thou grow'st,
+        </p>
+        <p>
+          So long as men can breathe, or eyes can see,
+        </p>
+        <p>
+          So long lives this, and this gives life to thee.
+        </p>
+      </blockquote>
+      <cite>quote from : www.shakespeares-sonnets.com/sonnet/18.</cite>
+    </section>
+    <section id="guessingGame">
+      <h3>welcome to my evil guessing game</h3>
+      <h3>I'm thinking of a number between 1 and 5...</h3>
+      <h4>your current guess:</h4>
+      <p id="demo"></p>
+      <input type="text" id="input">
+      <button id="enter">enter</button>
+    </section>
+  </body>
+</html>
